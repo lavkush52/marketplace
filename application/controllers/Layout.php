@@ -5,7 +5,6 @@ class Layout extends CI_Controller{
     
 	public function switcher(){
           $this->load->view('layout/common/switcher');
-
 	}
 
 
