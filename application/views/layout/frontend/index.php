@@ -1,4 +1,4 @@
-<section class="Hero-section" style="background-image: url(./asset/images/Chemmiecomm_BG.webp); height: 100%;background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section class="Hero-section" style="<?php echo base_url('/assets/frontend/images/images/Chemmiecomm_BG.webp'); ?> height: 100%;background-size: cover; background-position: center; background-repeat: no-repeat;">
 	<div class="container-fluid p-0">
 		<div class="row">
 			<div class="col-md-7 p-0 stle">
@@ -8,7 +8,6 @@
 					</h1>
 				</div>
 			</div>
-
 
 			<div class="col-md-5 text-right p-0 hero-img-one">
 				<img src="./asset/images/Banner_Image_02_New.webp" style="box-shadow: 0px 3px 41.25px 0px rgba(16, 43, 77, 0.30);" alt="chemmicomm" class="chemm-com-image">
