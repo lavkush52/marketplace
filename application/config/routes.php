@@ -57,7 +57,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['dashboard'] = 'Layout/switcher';
 
-
+//$route[] = 'Frontend_layout/index';
 $route['default_controller'] = 'Frontend_layout/index';
 
 
