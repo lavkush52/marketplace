@@ -6,7 +6,7 @@
  				<ul class="p-0 m-0">
  					<li class="nav-item dropdown list-unstyled">
  						<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
- 							<img class="cst-category-img" src="./asset/images/Category.svg" />
+ 							<img class="cst-category-img" src="<?= base_url('/assets/frontend/images/Category.svg') ?>" />
  							Categories
  						</a>
  						<div class="dropdown-menu">
@@ -27,7 +27,7 @@
  		<nav class="my-navbar navbar-expand-lg navbar-light">
  			<div class="row align-items-md-center mobile-align">
  				<div class="col-md-2 p-0 col-6">
- 					<a class="navbar-brand" href="#"><img src="./asset/images/Chemiecomm_Logo.svg" /></a>
+ 					<a class="navbar-brand" href="#"><img src="<?= base_url('/assets/frontend/images/Chemiecomm_Logo.svg') ?>" /></a>
  				</div>
 
  				<div class="col-md-6 p-0 mobile-d-none">
@@ -35,7 +35,7 @@
  						<ul class="p-0 m-0">
  							<li class="nav-item dropdown list-unstyled">
  								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
- 									<img class="cst-category-img" src="./asset/images/Category.svg" />
+ 									<img class="cst-category-img" src="<?= base_url('/assets/frontend/images/Category.svg') ?>" />
  									Categories
  								</a>
  								<div class="dropdown-menu">
