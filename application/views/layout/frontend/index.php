@@ -10,13 +10,13 @@
 			</div>
 
 			<div class="col-md-5 text-right p-0 hero-img-one">
-				<img src="./asset/images/Banner_Image_02_New.webp" style="box-shadow: 0px 3px 41.25px 0px rgba(16, 43, 77, 0.30);" alt="chemmicomm" class="chemm-com-image">
+				<img src="<? echo base_url('/assets/frontend/images/Banner_Image_02_New.webp'); ?>" style="box-shadow: 0px 3px 41.25px 0px rgba(16, 43, 77, 0.30);" alt="chemmicomm" class="chemm-com-image">
 			</div>
 		</div>
 
 		<div class="row pstn-abs">
 			<div class="col-md-3 img-left p-0 hero-img-two ">
-				<img src="./asset/images/Banner_Image_01_New.webp" style="box-shadow: 0px 3px 41.25px 0px rgba(16, 43, 77, 0.30);" alt="chemmicomm">
+				<img src="<? echo base_url('/assets/frontend/images/Banner_Image_01_New.webp') ?>" style="box-shadow: 0px 3px 41.25px 0px rgba(16, 43, 77, 0.30);" alt="chemmicomm">
 			</div>
 			<div class="col-md-6 pdng-counter">
 				<p class="para">
