@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -56,3 +56,9 @@ $route['translate_uri_dashes'] = FALSE;
 /* -------- Admin Routes Start -------- */
 
 $route['dashboard'] = 'Layout/switcher';
+
+
+// $route['web-name'] = 'controller_name/function_name';
+
+
+// $route['web-name/(any):'] = 'controller_name/function_name/$1';
