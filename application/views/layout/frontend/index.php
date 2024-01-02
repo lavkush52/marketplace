@@ -281,7 +281,7 @@
 
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/ppg-logo.webp">
+						<img src="<?= base_url('/assets/frontend/images/ppg-logo.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -289,7 +289,7 @@
 				</div>
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/sasol-logo.webp">
+						<img src="<?= base_url('/assets/frontend/images/sasol-logo.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -300,7 +300,7 @@
 			<div class="row pad partner-respon-pdng">
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/sabic.webp">
+						<img src="<?= base_url('/assets/frontend/images/sabic.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -309,7 +309,7 @@
 
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/nouyon.webp">
+						<img src="<?= base_url('/assets/frontend/images/nouyon.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -318,7 +318,7 @@
 
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/dsm.webp">
+						<img src="<?= base_url('/assets/frontend/images/dsm.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -326,7 +326,7 @@
 				</div>
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/braskem.webp">
+						<img src="<?= base_url('/assets/frontend/images/braskem.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -368,7 +368,7 @@
 		<div class="row ">
 			<div class="col-md-6">
 				<div class="container-fluid omg">
-					<img src="./asset/images/Banner Image-3.webp" class=" imge" />
+					<img src="<?= base_url('/assets/frontend/images/Banner Image-3.webp') ?>" class=" imge" />
 
 
 
@@ -386,7 +386,7 @@
 
 				<div class="row align-items-md-end mt-4 mb-4">
 					<div class="col-md-1 padui-3 col-2 p-0">
-						<img src="./asset/images/placeholder.webp" class=" imge-2" />
+						<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 					</div>
 					<div class="col-md-8 padui-2 col-10">
 						<p class="mb-0">Off Grade, Surplus & Products <br>
@@ -397,7 +397,7 @@
 
 				<div class="row align-items-md-end mt-4 mb-4">
 					<div class="col-md-1 padui-3 col-2 p-0">
-						<img src="./asset/images/placeholder.webp" class=" imge-2" />
+						<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 					</div>
 					<div class="col-md-8 padui-2 col-10">
 						<p class="mb-0">Off Grade, Surplus & Products <br>
@@ -408,7 +408,7 @@
 
 				<div class="row align-items-md-end mt-4 mb-4">
 					<div class="col-md-1 padui-3 col-2 p-0">
-						<img src="./asset/images/placeholder.webp" class=" imge-2" />
+						<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 					</div>
 					<div class="col-md-8 padui-2 col-10">
 						<p class="mb-0">Off Grade, Surplus & Products <br>
@@ -441,8 +441,8 @@
 		<div class="row mt-5">
 			<div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
 				<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-					<img src="asset/images/basf.webp" class="w-100">
-					<img src="asset/images/cargill.webp" class="pstn-abs-supplier">
+					<img src="<?= base_url('/assets/frontend/images/basf.webp') ?>" class="w-100">
+					<img src="<?= base_url('/assets/frontend/images/cargill-logo.webp') ?>" class="pstn-abs-supplier">
 					<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
 						<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 					</a>
@@ -451,8 +451,8 @@
 
 			<div class="col-lg-3 mb-4 mb-lg-0">
 				<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-					<img src="asset/images/croda.webp" class="w-100">
-					<img src="asset/images/cargill.webp" class="pstn-abs-supplier">
+					<img src="<?= base_url('/assets/frontend/images/croda.webp') ?>" class="w-100">
+					<img src="<?= base_url('/assets/frontend/images/cargill-logo.webp') ?>" class="pstn-abs-supplier">
 					<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
 						<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 					</a>
