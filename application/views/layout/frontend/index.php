@@ -1,4 +1,4 @@
-<section class="Hero-section" style="<?php echo base_url('/assets/frontend/images/Chemmiecomm_BG.webp'); ?>; height: 100%;background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section class="Hero-section" style="background-image: url('<?php echo base_url('/assets/frontend/images/Chemmiecomm_BG.webp'); ?>'); height: 100%;background-size: cover; background-position: center; background-repeat: no-repeat;">
 	<div class="container-fluid p-0">
 		<div class="row">
 			<div class="col-md-7 p-0 stle">
