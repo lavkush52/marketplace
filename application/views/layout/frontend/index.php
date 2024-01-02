@@ -1,4 +1,4 @@
-<section class="Hero-section" style="background-image: url('<?php echo base_url('/assets/frontend/images/Chemmiecomm_BG.webp'); ?>'); height: 100%;background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section class="Hero-section" style="background-image: url('<?= base_url('/assets/frontend/images/Chemmiecomm_BG.webp'); ?>'); height: 100%;background-size: cover; background-position: center; background-repeat: no-repeat;">
 	<div class="container-fluid p-0">
 		<div class="row">
 			<div class="col-md-7 p-0 stle">
@@ -10,13 +10,13 @@
 			</div>
 
 			<div class="col-md-5 text-right p-0 hero-img-one">
-				<img src="<? echo base_url('/assets/frontend/images/Banner_Image_02_New.webp'); ?>" style="box-shadow: 0px 3px 41.25px 0px rgba(16, 43, 77, 0.30);" alt="chemmicomm" class="chemm-com-image">
+				<img src="<?= base_url('/assets/frontend/images/Banner_Image_02_New.webp'); ?>" style="box-shadow: 0px 3px 41.25px 0px rgba(16, 43, 77, 0.30);" alt="chemmicomm" class="chemm-com-image">
 			</div>
 		</div>
 
 		<div class="row pstn-abs">
 			<div class="col-md-3 img-left p-0 hero-img-two ">
-				<img src="<? echo base_url('/assets/frontend/images/Banner_Image_01_New.webp') ?>" style="box-shadow: 0px 3px 41.25px 0px rgba(16, 43, 77, 0.30);" alt="chemmicomm">
+				<img src="<?= base_url('/assets/frontend/images/Banner_Image_01_New.webp') ?>" style="box-shadow: 0px 3px 41.25px 0px rgba(16, 43, 77, 0.30);" alt="chemmicomm">
 			</div>
 			<div class="col-md-6 pdng-counter">
 				<p class="para">
@@ -85,7 +85,7 @@
 							<div class="col-md-4 p-0">
 								<div class="row align-items-md-end">
 									<div class="col-md-2 padui-3">
-										<img src="./asset/images/placeholder.webp" class=" imge-2" />
+										<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 									</div>
 									<div class="col-md-9 padui-2"><span>Off Grade, Surplus & Products <br>
 											near expiry available</span>
@@ -97,7 +97,7 @@
 							<div class="col-md-4 p-0">
 								<div class="row align-items-md-end">
 									<div class="col-md-2 padui-3">
-										<img src="./asset/images/placeholder.webp" class=" imge-2" />
+										<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 									</div>
 									<div class="col-md-9 padui-2"><span>Off Grade, Surplus & Products <br>
 											near expiry available</span>
@@ -109,7 +109,7 @@
 							<div class="col-md-4 p-0">
 								<div class="row align-items-md-end">
 									<div class="col-md-2 padui-3">
-										<img src="./asset/images/placeholder.webp" class=" imge-2" />
+										<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 									</div>
 									<div class="col-md-9 padui-2"><span>Off Grade, Surplus & Products <br>
 											near expiry available</span>
@@ -127,7 +127,7 @@
 							<div class="col-md-4 p-0">
 								<div class="row align-items-md-end">
 									<div class="col-md-2 padui-3">
-										<img src="./asset/images/placeholder.webp" class=" imge-2" />
+										<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 									</div>
 									<div class="col-md-9 padui-2"><span>Off Grade, Surplus & Products <br>
 											near expiry available</span>
@@ -139,7 +139,7 @@
 							<div class="col-md-4 p-0">
 								<div class="row align-items-md-end">
 									<div class="col-md-2 padui-3">
-										<img src="./asset/images/placeholder.webp" class=" imge-2" />
+										<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 									</div>
 									<div class="col-md-9 padui-2"><span>Off Grade, Surplus & Products <br>
 											near expiry available</span>
@@ -151,7 +151,7 @@
 							<div class="col-md-4 p-0">
 								<div class="row align-items-md-end">
 									<div class="col-md-2 padui-3">
-										<img src="./asset/images/placeholder.webp" class=" imge-2" />
+										<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 									</div>
 									<div class="col-md-9 padui-2"><span>Off Grade, Surplus & Products <br>
 											near expiry available</span>
@@ -166,7 +166,7 @@
 							<div class="col-md-4 p-0">
 								<div class="row align-items-md-end">
 									<div class="col-md-2 padui-3">
-										<img src="./asset/images/placeholder.webp" class=" imge-2" />
+										<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 									</div>
 									<div class="col-md-9 padui-2"><span>Off Grade, Surplus & Products <br>
 											near expiry available</span>
@@ -178,7 +178,7 @@
 							<div class="col-md-4 p-0">
 								<div class="row align-items-md-end">
 									<div class="col-md-2 padui-3">
-										<img src="./asset/images/placeholder.webp" class=" imge-2" />
+										<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 									</div>
 									<div class="col-md-9 padui-2"><span>Off Grade, Surplus & Products <br>
 											near expiry available</span>
@@ -190,7 +190,7 @@
 							<div class="col-md-4 p-0">
 								<div class="row align-items-md-end">
 									<div class="col-md-2 padui-3">
-										<img src="./asset/images/placeholder.webp" class=" imge-2" />
+										<img src="<?= base_url('/assets/frontend/images/placeholder.webp') ?>" class=" imge-2" />
 									</div>
 									<div class="col-md-9 padui-2"><span>Off Grade, Surplus & Products <br>
 											near expiry available</span>
@@ -226,7 +226,7 @@
 			<div class="row pad">
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/logo-1.webp">
+						<img src="<?= base_url('/assets/frontend/images/logo-1.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -235,7 +235,7 @@
 
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/logo-2.webp">
+						<img src="<?= base_url('/assets/frontend/images/logo-2.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -244,7 +244,7 @@
 
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/logo-3.webp">
+						<img src="<?= base_url('/assets/frontend/images/logo-3.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -252,7 +252,7 @@
 				</div>
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/dow-logo.webp">
+						<img src="<?= base_url('/assets/frontend/images/dow-logo.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -263,7 +263,7 @@
 			<div class="row pad partner-respon-pdng">
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/unilever.webp">
+						<img src="<?= base_url('/assets/frontend/images/unilever.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
@@ -272,7 +272,7 @@
 
 				<div class="col-lg-3 col-md-12 mb-4 mb-lg-0 col-6 part-img-pdng">
 					<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-						<img src="./asset/images/cargill-logo.webp">
+						<img src="<?= base_url('/assets/frontend/images/cargill-logo.webp') ?>">
 						<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
 							<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 						</a>
