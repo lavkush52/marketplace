@@ -6,6 +6,6 @@ class Frontend_layout extends CI_Controller
 
 	public function index()
 	{
-		// $this->load->view('view folder directory');
+		$this->load->view('layout/frontend/index');
 	}
 }
