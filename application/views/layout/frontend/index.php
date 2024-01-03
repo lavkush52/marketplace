@@ -461,8 +461,8 @@
 
 			<div class="col-lg-3 mb-4 mb-lg-0">
 				<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-					<img src="asset/images/roquette.webp" class="w-100">
-					<img src="asset/images/cargill.webp" class="pstn-abs-supplier">
+					<img src="<?= base_url('/assets/frontend/images/roquette.webp') ?>" class="w-100">
+					<img src="<?= base_url('/assets/frontend/images/cargill.webp') ?>">
 					<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 						<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 					</a>
@@ -470,7 +470,7 @@
 			</div>
 			<div class="col-lg-3 mb-4 mb-lg-0">
 				<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-					<img src="asset/images/dow.webp" class="w-100">
+					<img src="<?= base_url('/assets/frontend/images/dow.webp') ?>" class="w-100">
 					<img src="asset/images/cargill.webp" class="pstn-abs-supplier">
 					<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 						<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
@@ -483,8 +483,8 @@
 		<div class="row responsv-supplier">
 			<div class="col-lg-3 mb-4 mb-lg-0">
 				<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-					<img src="asset/images/dupont.webp" class="w-100">
-					<img src="asset/images/cargill.webp" class="pstn-abs-supplier">
+					<img src="<?= base_url('/assets/frontend/images/dupont.webp') ?>" class="w-100">
+					<img src="<?= base_url('/assets/frontend/images/cargill.webp') ?>" class="pstn-abs-supplier">
 					<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
 						<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 					</a>
@@ -493,8 +493,8 @@
 
 			<div class="col-lg-3 mb-4 mb-lg-0">
 				<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-					<img src="asset/images/sasol.webp" class="w-100">
-					<img src="asset/images/cargill.webp" class="pstn-abs-supplier">
+					<img src="<?= base_url('/assets/frontend/images/sasol.webp') ?>" class="w-100">
+					<img src="<?= base_url('/assets/frontend/images/cargill.webp') ?>">
 					<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
 						<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 					</a>
@@ -503,7 +503,7 @@
 
 			<div class="col-lg-3 mb-4 mb-lg-0">
 				<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-					<img src="asset/images/givaudan.webp" class="w-100">
+					<img src="<?= base_url('/assets/frontend/images/givaudan.webp') ?>" class="w-100">
 					<img src="asset/images/cargill.webp" class="pstn-abs-supplier">
 					<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 						<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
