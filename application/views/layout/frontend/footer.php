@@ -1,10 +1,10 @@
 <footer class="foot">
-	<section class="footer container-fluid p-0" style="background: url(asset/images/Footerbg.webp);  background-size: cover;
+	<section class="footer container-fluid p-0" style="background: url('<? base_url('/assets/frontend/images/Footerbg.webp') ?>');  background-size: cover;
   background-repeat: no-repeat;">
 		<div class="container p-0">
 			<div class="row footer-padding">
 				<div class="col-md-3 p-0">
-					<div class="chem-logo"><a href="#"><img src="asset/images/Chemiecomm_Logo_Bottom.svg" class=" imge-2" /></a>
+					<div class="chem-logo"><a href="#"><img src="<?= base_url('/assets/frontend/images/Chemiecomm_Logo_Bottom.svg') ?>" class=" imge-2" /></a>
 					</div>
 					<div class="chem-para ">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -112,7 +112,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="./asset/js/index.js"></script>
+<script src="<?= base_url('/assets/frontend/js/index.js') ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
