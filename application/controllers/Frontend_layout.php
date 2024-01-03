@@ -9,6 +9,11 @@ class Frontend_layout extends CI_Controller
 		$this->commonLayout('layout/frontend/index');
 	}
 
+	public function industry()
+	{
+		$this->commonLayout('layout/frontend/industry');
+	}
+
 	public function commonLayout($data)
 	{
 		$this->load->view('layout/frontend/head');
