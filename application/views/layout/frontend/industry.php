@@ -6,7 +6,7 @@
 		</div>
 	</div>
 </div>
-<!-- Hero section -->
+
 
 <!-- BreadCrumbb -->
 <div class="container">
