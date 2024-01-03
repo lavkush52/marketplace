@@ -1,5 +1,5 @@
 <!-- Hero section -->
-<div class="ind-hero-sect" style="display: flex; align-items: center; background-image: url(./asset/images/Industries_Top_Banner.webp); height: 350px; background-repeat: no-repeat; background-position: bottom; background-size: cover;">
+<div class="ind-hero-sect" style="display: flex; align-items: center; background-image: url('<?= base_url('/assets/frontend/images/Industries_Top_Banner.webp') ?>'); height: 350px; background-repeat: no-repeat; background-position: bottom; background-size: cover;">
 	<div class="container p-0">
 		<div class="hero-heading">
 			<h1>Industries</h1>
@@ -29,38 +29,37 @@
 		</h2>
 		<div class="row">
 			<main class="page-content p-0">
-				<div class="d_card" style=" background-image: url(./asset/images/Chemicals.webp);">
+				<div class="d_card" style=" background-image: url('<?= base_url('/assets/frontend/images/Chemicals.webp') ?>');">
 					<div class="content">
 						<h2 class="heading">Chemicals</h2>
 						<p class="data-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 					</div>
 				</div>
-				<div class="d_card" style=" background-image: url(./asset/images/Raw_Materials.webp);">
+				<div class="d_card" style=" background-image: url('<?= base_url('/assets/frontend/images/Raw_Materials.webp') ?>');">
 					<div class="content">
 						<h2 class="heading">Raw Materials</h2>
 						<p class="data-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 					</div>
 				</div>
-				<div class="d_card" style="  background-image: url(./asset/images/Petrochemical.webp);
-  ">
+				<div class="d_card" style="  background-image: url('<?= base_url('/assets/frontend/images/Petrochemical.webp') ?>');">
 					<div class="content">
 						<h2 class="heading">Petrochemicals</h2>
 						<p class="data-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 					</div>
 				</div>
-				<div class="d_card" style=" background-image: url(./asset/images/Pharmaceuticals.webp);">
+				<div class="d_card" style=" background-image: url('<?= base_url('/assets/frontend/images/Pharmaceuticals.webp') ?>');">
 					<div class="content">
 						<h2 class="heading">Pharmaceuticals</h2>
 						<p class="data-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 					</div>
 				</div>
-				<div class="d_card" style=" background-image: url(./asset/images/Food&Feed.webp);">
+				<div class="d_card" style=" background-image: url('<?= base_url('/assets/frontend/images/Food&Feed.webp') ?>');">
 					<div class="content">
 						<h2 class="heading">Food & Feed</h2>
 						<p class="data-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 					</div>
 				</div>
-				<div class="d_card" style=" background-image: url(./asset/images/Commodities.webp);">
+				<div class="d_card" style=" background-image: url('<?= base_url('/assets/frontend/images/Commodities.webp') ?>');">
 					<div class="content">
 						<h2 class="heading">Commodities</h2>
 						<p class="data-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
