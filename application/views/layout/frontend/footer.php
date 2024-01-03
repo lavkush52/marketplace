@@ -1,5 +1,5 @@
 <footer class="foot">
-	<section class="footer container-fluid p-0" style="background: url('<? base_url('/assets/frontend/images/Footerbg.webp') ?>');  background-size: cover;
+	<section class="footer container-fluid p-0" style="background: url('<?= base_url('/assets/frontend/images/Footerbg.webp') ?>');  background-size: cover;
   background-repeat: no-repeat;">
 		<div class="container p-0">
 			<div class="row footer-padding">
