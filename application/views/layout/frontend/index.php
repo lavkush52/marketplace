@@ -504,7 +504,7 @@
 			<div class="col-lg-3 mb-4 mb-lg-0">
 				<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
 					<img src="<?= base_url('/assets/frontend/images/givaudan.webp') ?>" class="w-100">
-					<img src="asset/images/cargill.webp" class="pstn-abs-supplier">
+					<img src="<?= base_url('/assets/frontend/images/cargill.webp') ?>" class="pstn-abs-supplier">
 					<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 						<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 					</a>
@@ -512,8 +512,8 @@
 			</div>
 			<div class="col-lg-3 mb-4 mb-lg-0">
 				<div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-					<img src="asset/images/08.webp" class="w-100">
-					<img src="asset/images/cargill.webp" class="pstn-abs-supplier">
+					<img src="<?= base_url('/assets/frontend/images/08.webp') ?>" class="w-100">
+					<img src="<?= base_url('/assets/frontend/images/cargill.webp') ?>" class="pstn-abs-supplier">
 					<a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
 						<div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
 					</a>
@@ -532,7 +532,7 @@
 						<div class="product-card">
 							<div class="cst-stocks"><span>Out Of Stock</span></div>
 							<div class="prod-image">
-								<img src="./asset/images/image 5.webp">
+								<img src="<?= base_url('/assets/frontend/images/image 5.webp') ?>">
 							</div>
 							<div class="prod-details">
 								<h3 class="prod-name">All Day You May(Anytime
@@ -560,7 +560,7 @@
 						<div class="product-card">
 							<div class="cst-best-seller"><span>Best Seller</span></div>
 							<div class="prod-image">
-								<img src="./asset/images/image 5.webp">
+								<img src="<?= base_url('/assets/frontend/images/image 5.webp') ?>">
 							</div>
 							<div class="prod-details">
 								<h3 class="prod-name">All Day You May(Anytime
@@ -588,7 +588,7 @@
 						<div class="product-card">
 							<div class="cst-spacing"></div>
 							<div class="prod-image">
-								<img src="./asset/images/image 5.webp">
+								<img src="<?= base_url('/assets/frontend/images/image 5.webp') ?>">
 							</div>
 							<div class="prod-details">
 								<h3 class="prod-name">All Day You May(Anytime
@@ -616,7 +616,7 @@
 						<div class="product-card">
 							<div class="cst-stocks"><span>Out Of Stock</span></div>
 							<div class="prod-image">
-								<img src="./asset/images/image 5.webp">
+								<img src="<?= base_url('/assets/frontend/images/image 5.webp') ?>">
 							</div>
 							<div class="prod-details">
 								<h3 class="prod-name">All Day You May(Anytime
@@ -644,7 +644,7 @@
 						<div class="product-card">
 							<div class="cst-best-seller"><span>Best Seller</span></div>
 							<div class="prod-image">
-								<img src="./asset/images/image 5.webp">
+								<img src="<?= base_url('/assets/frontend/images/image 5.webp') ?>">
 							</div>
 							<div class="prod-details">
 								<h3 class="prod-name">All Day You May(Anytime
@@ -673,7 +673,7 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="new-chemicals" style="background-image: url(./asset/images/New_Chemicals.webp);">
+				<div class="new-chemicals" style="background-image: url('<?= base_url('/assets/frontend/images/New_Chemicals.webp'); ?>');">
 					<div class="heading-chem">
 						<h2>New Chemicals</h2>
 						<a href="#" class="text-decoration-none">Shop Now</a>
@@ -692,13 +692,13 @@
 			</div>
 			<div class="ban">
 				<div class="row just">
-					<div class="col-md-5 bg-cls" style="background: url(asset/images/colm-bg.webp); height: 750px;">
+					<div class="col-md-5 bg-cls" style="background: url('<?= base_url('/assets/frontend/images/colm-bg.webp'); ?>'); height: 750px;">
 						<div class="he">
 							<h2>For Supplier</h2>
 						</div>
 						<div class="row">
 							<div class="col-md-3 bseu">
-								<img src="asset/images/number-1.webp" class=" imge-2" />
+								<img src="<?= base_url('/assets/frontend/images/number-1.webp') ?>" class=" imge-2" />
 							</div>
 							<div class="col-md-9">
 								<p class="par-1">
@@ -709,7 +709,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-3 bseu">
-								<img src="asset/images/number-2.webp" class=" imge-2" />
+								<img src="<?= base_url('/assets/frontend/images/number-2.webp') ?>" class=" imge-2" />
 							</div>
 							<div class="col-md-9">
 								<p class="par-1">
@@ -720,7 +720,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-3 bseu">
-								<img src="asset/images/number-3.webp" class=" imge-2" />
+								<img src="<?= base_url('/assets/frontend/images/number-3.webp') ?>" class=" imge-2" />
 							</div>
 							<div class="col-md-9">
 								<p class="par-1">
@@ -730,13 +730,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-5 bg-cls" style="background: url(asset/images/colm-bg.webp); height: 750px;">
+					<div class="col-md-5 bg-cls" style="background: url('<?= base_url('/assets/frontend/images/colm-bg.webp'); ?>'); height: 750px;">
 						<div class="he">
 							<h2>For Buyer</h2>
 						</div>
 						<div class="row">
 							<div class="col-md-3 bseu">
-								<img src="asset/images/number-1.webp" class=" imge-2" />
+								<img src="<?= base_url('/assets/frontend/images/number-1.webp') ?>" class=" imge-2" />
 							</div>
 							<div class="col-md-9">
 								<p class="par-1">
@@ -747,7 +747,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-3 bseu">
-								<img src="asset/images/number-2.webp" class=" imge-2" />
+								<img src="<?= base_url('/assets/frontend/images/number-2.webp') ?>" class=" imge-2" />
 							</div>
 							<div class="col-md-9">
 								<p class="par-1">
@@ -758,7 +758,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-3 bseu">
-								<img src="asset/images/number-3.webp" class=" imge-2" />
+								<img src="<?= base_url('/assets/frontend/images/number-3.webp') ?>" class=" imge-2" />
 							</div>
 							<div class="col-md-9">
 								<p class="par-1">
@@ -781,7 +781,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
-				<div class="new-chemicals-2" style="background-image: url(./asset/images/Trending_Products.webp);">
+				<div class="new-chemicals-2" style="background-image: url('<?= base_url('/assets/frontend/images/Trending_Products.webp'); ?>');">
 					<div class="heading-chem">
 						<h2>Trending Products</h2>
 						<a href="#" class="text-decoration-none">Shop Now</a>
@@ -823,7 +823,7 @@
 						<div class="product-card">
 							<div class="cst-best-seller"><span>Best Seller</span></div>
 							<div class="prod-image">
-								<img src="./asset/images/image 5.webp">
+								<img src="<?= base_url('/assets/frontend/images/image 5.webp') ?>">
 							</div>
 							<div class="prod-details">
 								<h3 class="prod-name">All Day You May(Anytime
@@ -851,7 +851,7 @@
 						<div class="product-card">
 							<div class="cst-spacing"></div>
 							<div class="prod-image">
-								<img src="./asset/images/image 5.webp">
+								<img src="<?= base_url('/assets/frontend/images/image 5.webp') ?>">
 							</div>
 							<div class="prod-details">
 								<h3 class="prod-name">All Day You May(Anytime
@@ -879,7 +879,7 @@
 						<div class="product-card">
 							<div class="cst-stocks"><span>Out Of Stock</span></div>
 							<div class="prod-image">
-								<img src="./asset/images/image 5.webp">
+								<img src="<?= base_url('/assets/frontend/images/image 5.webp') ?>">
 							</div>
 							<div class="prod-details">
 								<h3 class="prod-name">All Day You May(Anytime
@@ -907,7 +907,7 @@
 						<div class="product-card">
 							<div class="cst-best-seller"><span>Best Seller</span></div>
 							<div class="prod-image">
-								<img src="./asset/images/image 5.webp">
+								<img src="<?= base_url('/assets/frontend/images/image 5.webp') ?>">
 							</div>
 							<div class="prod-details">
 								<h3 class="prod-name">All Day You May(Anytime
@@ -945,7 +945,7 @@
 	<div class=" container colr">
 		<div class="row">
 			<div class="col-md-3 centre">
-				<img src="asset/images/Hassle-free returns.webp" class=" imge-2" />
+				<img src="<?= base_url('/assets/frontend/images/Hassle-free returns.webp') ?>" class=" imge-2" />
 				<h2 class="bolf">
 					Hassle-free returns
 				</h2>
@@ -955,7 +955,7 @@
 				</p>
 			</div>
 			<div class="col-md-3 centre">
-				<img src="asset/images/Quality Product.webp" class=" imge-2" />
+				<img src="<?= base_url('/assets/frontend/images/Quality Product.webp') ?>" class=" imge-2" />
 				<h2 class="bolf">
 					Quality Product
 				</h2>
@@ -965,7 +965,7 @@
 				</p>
 			</div>
 			<div class="col-md-3 centre">
-				<img src="asset/images/E-mail Support.webp" class=" imge-2" />
+				<img src="<?= base_url('/assets/frontend/images/E-mail Support.webp') ?>" class=" imge-2" />
 				<h2 class="bolf">
 					E-mail Support
 				</h2>
@@ -975,7 +975,7 @@
 				</p>
 			</div>
 			<div class="col-md-3 centre">
-				<img src="asset/images/30 Days Refund Policy.webp" class=" imge-2" />
+				<img src="<?= base_url('/assets/frontend/images/30 Days Refund Policy.webp') ?>" class=" imge-2" />
 				<h2 class="bolf">
 					30 Days Refund Policy
 				</h2>
