@@ -61,7 +61,7 @@
  						<ul class="navbar-nav align-items-md-center">
  							<li class="nav-item sign-log  text-white ">
  								<a class="nav-link text-white" href="<?= base_url('/register') ?>"><i class="bi bi-person-fill pr-1"></i>Register</a>
- 								<a class="nav-link text-white ms--1" href="#">Sign in</a>
+ 								<a class="nav-link text-white ms--1" href="<?= base_url('/login') ?>">Sign in</a>
  							</li>
  							<li class="nav-item">
  								<a class="nav-link contact-us txt-color" href="#">Contact Us</a>
