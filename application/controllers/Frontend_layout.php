@@ -19,7 +19,7 @@ class Frontend_layout extends CI_Controller
 	}
 	public function login()
 	{
-		$this->commonLayout('assets/frontend/login');
+		$this->commonLayout('layout/frontend/login');
 	}
 
 	public function commonLayout($data)
