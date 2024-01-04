@@ -113,6 +113,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="<?= base_url('/assets/frontend/js/index.js') ?>"></script>
+<script src="<?= base_url('/assets/frontend/js/sign-in-register.js') ?>"></script>
+<script src="<?= base_url('/assets/frontend/js/single-ind.js') ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
