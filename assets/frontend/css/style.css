@@ -1575,3 +1575,7 @@ span.review-count {
     transition-duration: 0s;
   }
 }
+.hero-heading h1 {
+    color: #fff;
+    font-size: 60px;
+}
