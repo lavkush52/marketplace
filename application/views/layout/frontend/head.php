@@ -18,4 +18,4 @@
 	<title>chemmicomm</title>
 </head>
 
-<body>
+<body id="particles-js">
