@@ -1,3 +1,4 @@
+<div id="particles-js"></div>
 <div class="signin-register container padding-over">
 	<div class="card card0">
 		<div class="d-flex flex-lg-row flex-column-reverse">

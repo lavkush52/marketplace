@@ -16,4 +16,4 @@
 	<title>chemmicomm</title>
 </head>
 
-<body id="particles-js">
+<body>
