@@ -60,5 +60,6 @@ $route['dashboard'] = 'Layout/switcher';
 //$route[] = 'Frontend_layout/index';
 $route['default_controller'] = 'Frontend_layout/index';
 $route['industry'] = 'Frontend_layout/industry';
+$route['register'] = 'Frontend_layout/register';
 
 // $route['web-name/(any):'] = 'controller_name/function_name/$1';

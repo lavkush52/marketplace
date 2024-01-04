@@ -13,6 +13,10 @@ class Frontend_layout extends CI_Controller
 	{
 		$this->commonLayout('layout/frontend/industry');
 	}
+	public function register()
+	{
+		$this->commonLayout('layout/frontend/register');
+	}
 
 	public function commonLayout($data)
 	{
